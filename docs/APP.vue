@@ -11,7 +11,7 @@
         | 支持macOS,Windows
     #container.container-fluid
       .row.ex-width
-        img.gallery.col-xs-10.col-xs-offset-1.col-md-offset-2.col-md-8(src="http://cdn.zhusun.club/image/clipboard/12.png")
+        img.gallery.col-xs-10.col-xs-offset-1.col-md-offset-2.col-md-8(src="https://cdn.zhusun.club/image/clipboard/12.png")
       .row.ex-width.display-list
         .display-list__item(v-for="(item, index) in itemList" :key="index" :class="{ 'o-item': index % 2 !== 0 }")
           .col-xs-10.col-xs-offset-1.col-md-7.col-md-offset-0
@@ -30,27 +30,27 @@ export default {
       year: new Date().getFullYear(),
       itemList: [
         {
-          url: 'http://cdn.zhusun.club/image/clipboard/1.png',
+          url: 'https://cdn.zhusun.club/image/clipboard/1.png',
           title: '优雅设计',
           desc: '支持复制多种格式，保留复制内容的所有样式，内容丰富，内容过多时可以滚动查看，方便查找您的剪贴板记录。'
         },
         {
-          url: 'http://cdn.zhusun.club/image/clipboard/4.png',
+          url: 'https://cdn.zhusun.club/image/clipboard/4.png',
           title: '元模块',
           desc: '每个剪贴板记录的元模块，包含顶部tabbar，中间的内容区域展示原格式内容，下方记录您复制此条内容的时间，也给您提供了复制按钮，方便再次复制。'
         },
         {
-          url: 'http://cdn.zhusun.club/image/clipboard/5.png',
+          url: 'https://cdn.zhusun.club/image/clipboard/5.png',
           title: '图片记录',
           desc: '支持记录剪贴板图片记录，无论是截屏还是复制图片，都会记录在我们的剪贴板里，列表展示图片缩略图，方便快速查找。'
         },
         {
-          url: 'http://cdn.zhusun.club/image/clipboard/6.png',
+          url: 'https://cdn.zhusun.club/image/clipboard/6.png',
           title: '大图预览',
           desc: '点击列表缩略图，可以预览更高画质的图片记录。'
         },
         {
-          url: 'http://cdn.zhusun.club/image/clipboard/3.png',
+          url: 'https://cdn.zhusun.club/image/clipboard/3.png',
           title: '关键字搜索',
           desc: '右上角预留了关键字搜索栏，可以在此输入关键字，方便快捷的搜索到目标记录。'
         }
@@ -90,7 +90,7 @@ html
 #header
   height 100vh
   width 100%
-  background-image url("http://cdn.zhusun.club/image/clipboard/backg.jpeg")
+  background-image url("https://cdn.zhusun.club/image/clipboard/backg.jpeg")
   background-attachment fixed
   background-size cover
   background-position center
