@@ -5,8 +5,8 @@
       img.logo(src="~icons/icon.svg", alt="VisualClipboard")
       h1.title VisualClipboard
       h2.desc 优雅的剪贴板可视化管理
-      button.download(@click="goLink('https://github.com/sunxiuguo')") 免费下载
-      button.download(@click="goLink('https://github.com/sunxiuguo')") 查看文档
+      button.download(@click="goLink('https://github.com/sunxiuguo/VisualClipboard')") 免费下载
+      button.download(@click="goLink('https://github.com/sunxiuguo/VisualClipboard')") 查看文档
       h3.desc
         | 支持macOS,Windows
     #container.container-fluid
@@ -21,7 +21,7 @@
             .display-list__desc {{ item.desc }}
       .row.ex-width.info
         .col-xs-10.col-xs-offset-1
-          | &copy;2019 - {{ year }} #[a(href="https://github.com/sunxiuguo" target="_blank") sunxiuguo]
+          | &copy;2019 - {{ year }} #[a(href="https://github.com/sunxiuguo/VisualClipboard" target="_blank") sunxiuguo]
 </template>
 <script>
 export default {
